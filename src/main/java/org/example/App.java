@@ -14,6 +14,6 @@ public class App
     }
     public static int getRandomNum() {
         Random random = new Random();
-        return random.nextInt(1000);
+        return random.nextInt(1000) * 1000;
     }
 }
